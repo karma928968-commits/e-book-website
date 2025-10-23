@@ -1,0 +1,121 @@
+/* ---basic page setup--- */
+
+body{
+    font-family:Arial, sans-serif ;
+    background-color: #f8f9fa ;
+    color:#333 ;
+    margin: 0 ;
+    padding: 0 ;
+}
+header{
+    background-color:#007bff ;
+    color:white ;
+    text-align:center ;
+    padding:2rem ;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius:50px ;
+
+}
+h1{
+    font-size: 2.5rem;
+    margin-bottom:0.5rem;
+}
+.intro{
+    text-align: center;
+    padding: 2rem;
+}
+.download{
+    text-align: center;
+    padding: 2rem;
+}
+.btn{
+    background-color:#28a745 ;
+    color:white ;
+    text-decoration:none ;
+    padding:1rem 2rem ;
+    border-radius:10px ;
+    font-size:1.2rem ;
+    transition:background 0.3s ;
+}
+.btn:hover{
+    background-color: #218838;
+}
+footer{
+    text-align: center;
+    background-color: #343a40;
+    color:white ;
+    padding:1rem ;
+    margin: 2rem;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+
+/* --- Responsive Design (for mobile screens) --- */
+
+@media (max-width:600px) {
+    header{
+        padding: 1.5rem;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    .intro, .download {
+        padding: 1rem;
+    }
+    .btn{
+        font-size: 1rem;
+        padding: 0.8rem 1.5rem;
+    }
+    footer{
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
+}
+/* --- eBook Preview --- */
+.preview{
+    text-align:center ;
+    background-color:#fff ;
+    padding: 2rem;
+    border-radius:10px ;
+    margin: 2rem auto;
+    width: 50;
+    box-shadow:0 0 10px rgba(0,0,0,0.1) ;
+}
+
+.e-book-cover{
+    width:20px ;
+    border-radius:15px ;
+    margin-bottom: 1rem;
+}
+.sample-text{
+    font-style: italic;
+    color: #555;
+}
+/* --- Email Form --- */
+.email-form{
+    text-align: center;
+    background-color: #f1f3f5;
+    padding: 2rem;
+    border-radius: 20px;
+    margin: 2rem auto;
+    width: 80%;
+}
+.email-form input{
+    padding:0.8rem ;
+    width: 60%;
+    border-radius: 10px;
+    border:1px solid #ccc ;
+    font-size: 1rem;
+}
+.email-form button{
+    margin-top: 1rem;
+}
+#message{
+    margin-top: 1rem;
+    color: green;
+    font-weight: bold;
+}
+.preview img{
+    width: 200px;
+    height: 400px;
+}
